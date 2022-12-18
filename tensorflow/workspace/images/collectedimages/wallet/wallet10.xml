@@ -1,0 +1,26 @@
+<annotation>
+	<folder>wallet</folder>
+	<filename>wallet10.jpg</filename>
+	<path>C:\Users\vivek\Desktop\1\tensorflow\workspace\images\collectedimages\wallet\wallet10.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>wallet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>22</xmin>
+			<ymin>199</ymin>
+			<xmax>205</xmax>
+			<ymax>336</ymax>
+		</bndbox>
+	</object>
+</annotation>
