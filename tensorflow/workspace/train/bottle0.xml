@@ -1,0 +1,26 @@
+<annotation>
+	<folder>bottle</folder>
+	<filename>bottle0.jpg</filename>
+	<path>C:\Users\vivek\Desktop\1\tensorflow\workspace\images\collectedimages\bottle\bottle0.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>480</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>bottle</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>260</xmin>
+			<ymin>124</ymin>
+			<xmax>380</xmax>
+			<ymax>480</ymax>
+		</bndbox>
+	</object>
+</annotation>
