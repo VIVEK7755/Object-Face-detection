@@ -39,7 +39,6 @@
    Describe the code responsible for collecting images from a webcam for different object classes. Explain how to run this code and provide any necessary command-line arguments.
 
    ```markdown
-   ## Collecting Images
 
    The `collect_images.py` script captures images from a webcam for various object classes. To use it, run the following command:
    ~python collect_images.py
@@ -55,7 +54,6 @@
    Explain how to label the collected images using the LabelImg tool. Provide the necessary instructions and commands.
 
    ```markdown
-   ## Labeling Images
 
    To label the collected images, follow these steps:
 
@@ -82,7 +80,6 @@
    Explain how to train the object detection model using TensorFlow. Include instructions for generating TFRecord files, configuring the pipeline, and running the training script.
 
    ```markdown
-   ## Training the Model
 
    To train the object detection model, follow these steps:
 
@@ -107,7 +104,6 @@
    Explain how to use the trained model to perform real-time object detection using a webcam feed.
 
    ```markdown
-   ## Real-time Object Detection
 
    Run the following script to perform real-time object detection using the trained model:
    ~python real_time_object_detection.py
@@ -125,7 +121,6 @@
    Summarize the purpose and key features of the code. Optionally, provide contact information or links to additional resources.
 
    ```markdown
-   ## Conclusion
 
    This repository provides a complete workflow for collecting images, labeling them, training an object detection model, and using the model for real-time object detection. Feel free to reach out to [your email or GitHub profile] for any questions or improvements.
 
@@ -136,7 +131,6 @@
    Specify the license under which your code is released.
 
    ```markdown
-   ## License
 
    This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
    ```
@@ -146,7 +140,6 @@
    If you used any external resources or libraries, give credit to the authors or sources.
 
    ```markdown
-   ## Acknowledgments
 
    - The LabelImg tool by [tzutalin](https://github.com/tzutalin) was used for image labeling.
    - TensorFlow and OpenCV were crucial for this project.
