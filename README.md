@@ -2,7 +2,9 @@
 
    # Object-Face-detection with Tensorflow
 
-   This repository contains code for collecting images, labeling them, training an object detection model, and using the trained model to detect objects or faces in real-time using a webcam feed.
+   This repository contains code for collecting images, labeling them, training an object detection model, and using the trained model to detect objects or faces in real-time using a webcam feed.<br>
+
+   <img src="/images/1.gif" alt="Animated GIF" />
   
 
 2. **Getting Started**:
