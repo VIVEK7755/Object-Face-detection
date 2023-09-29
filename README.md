@@ -30,9 +30,8 @@
    Clone this repository to your local machine:
 
    ```
-   git clone https://github.com/yourusername/your-repo.git
    ```
-
+   git clone https://github.com/yourusername/your-repo.git
    ```
 
 3. **Collecting Images**:
@@ -43,7 +42,7 @@
    ## Collecting Images
 
    The `collect_images.py` script captures images from a webcam for various object classes. To use it, run the following command:
-   python collect_images.py
+   ~python collect_images.py
    ```
    
    ```
@@ -68,8 +67,8 @@
 
    2. Run the LabelImg tool:
 
-        cd labelImg
-        python labelImg.py
+      ~cd labelImg
+      ~python labelImg.py
 
       ```
       ```
@@ -88,8 +87,8 @@
    To train the object detection model, follow these steps:
 
    1. Generate TFRecord files for training and testing data:
-       python generate_tfrecord.py -x path/to/training/images -i path/to/training/images -l path/to/annotations/label_map.pbtxt -o path/to/output/train.record
-       python generate_tfrecord.py -x path/to/testing/images -i path/to/testing/images -l path/to/annotations/label_map.pbtxt -o path/to/output/test.record
+      ~python generate_tfrecord.py -x path/to/training/images -i path/to/training/images -l path/to/annotations/label_map.pbtxt -o path/to/output/train.record
+      ~python generate_tfrecord.py -x path/to/testing/images -i path/to/testing/images -l path/to/annotations/label_map.pbtxt -o path/to/output/test.record
 
       ```
       
@@ -99,7 +98,7 @@
    3. Start training the model:
 
       ```
-      python model_main_tf2.py --model_dir mymodel --num_train_steps 5000 --pipeline_config_path mymodel/pipeline.config
+      ~python model_main_tf2.py --model_dir mymodel --num_train_steps 5000 --pipeline_config_path mymodel/pipeline.config
       ```
 
 
@@ -111,7 +110,7 @@
    ## Real-time Object Detection
 
    Run the following script to perform real-time object detection using the trained model:
-    python real_time_object_detection.py
+   ~python real_time_object_detection.py
 
    ```
    
