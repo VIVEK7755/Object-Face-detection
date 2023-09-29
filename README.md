@@ -1,8 +1,6 @@
-#Object-Face-detection with Tensorflow
-
 1. **Title and Introduction**:
 
-   # Object Detection with TensorFlow README
+   # Object-Face-detection with Tensorflow
 
    This repository contains code for collecting images, labeling them, training an object detection model, and using the trained model to detect objects or faces in real-time using a webcam feed.
   
